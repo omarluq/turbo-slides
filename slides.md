@@ -158,7 +158,7 @@ transition: slide-left
   <div>
     <strong>Why Anycable?</strong>
     <ul>
-      <li>Guaranteed Message Delivery: Provide a durable mechanism for message persistence.</li>
+      <li>Guaranteed Message Delivery: Provides a durable mechanism for message persistence.</li>
       <li>Enhanced Scalability: The combination of Redis as a memory broker and AnyCable's Go-based architecture allows for efficient horizontal scaling.</li>
     </ul>
   </div>
@@ -169,3 +169,13 @@ transition: slide-left
 transition: slide-left
 ---
 <h1> Morph!! </h1>
+<div class='flex flex-row gap-15'>
+<div class='w-1/3'>
+<p>The "Morph DOM algorithm" mirrors the concept of morphing from graphics in web development, transforming HTML elements by identifying the minimal changes needed for a seamless transition between DOM states. It compares current and desired DOM trees, calculating the least operations—like adding, removing, or updating elements and attributes—to efficiently achieve the new state.</p> 
+</div>
+<div>
+<div class='flex items-center justify-center absolute top-10'>
+  <img src="/morphdom.svg" class="h-[500px] w-[500px]" />
+</div>
+</div>
+</div>
